@@ -1,0 +1,20 @@
+{
+    "name": "opay/sdk-weixinpay",
+    "description": "O'Pay Weixinpay SDK",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "O'Pay",
+            "email": "techsupport@opay.tw"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"Opay\\Payment\\Weixinpay\\": "src/"
+    	}
+    }
+}
